@@ -46,4 +46,22 @@ public class GroupTask3 {
 		str1=str1.substring(3);//Night
 		System.out.println("The value of str1= "+str1);
 		System.out.println("The value of str2= "+str2);
+		
+		String str1="Day";
+		String str2="Night";
+		//str1=str1.concat(str2);
+		str1=str1+str2;//DayNight
+		str2=str1.substring(0,3);//Day
+		str1=str1.substring(3);//Night
+		System.out.println("The value of str1= "+str1);
+		System.out.println("The value of str2= "+str2);
+		
+		String str3="Synatx";
+		String str4="Technologies";
+		//str3=str3.concat(str4);
+		str3=str3+str4;//DayNight
+		str4=str3.substring(0,str3.length()-str4.length());//Day
+		str3=str3.substring(str3.length());//Night
+		System.out.println("The value of str1= "+str1);
+		System.out.println("The value of str2= "+str2);
 }}
