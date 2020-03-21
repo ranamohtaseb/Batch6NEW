@@ -3,18 +3,21 @@ package HOMEWORKS;
 public class HW6087 {
 
 	public static void main(String[] args) {
+		// Create a String named s1 = "hello"
+		// check weather string is empty or not
+		// Create a String named s2 = ""
+		// check weather string is empty or not
 
-//Create String str1= syntax technologies and convert into 
-//SYNTAX TECHNOLOGIES
-//Create String str2=  SYNTAX TECHNOLOGIES 
-//and convert into syntax technologies
-//				Expected Output:
-//				SYNTAX TECHNOLOGIES
-//				syntax technologies
-		String str1 = "syntax technologies";
-		String str2 = "SYNTAX TECHNOLOGIES";
-		System.out.println(str1.toUpperCase());
-		System.out.println(str2.toLowerCase());
+		// Expected Output:
+		// false
+		// true
+		String s1 = "hello";
+		boolean empty = s1.isEmpty();
+		System.out.println(empty);
+
+		String s2 = "";
+		boolean empty2 = s2.isEmpty();
+		System.out.println(empty2);
 
 	}
 

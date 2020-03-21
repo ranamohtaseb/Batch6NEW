@@ -1,6 +1,6 @@
 package HOMEWORKS;
 
-public class HW86 {
+public class HW6086 {
 
 	public static void main(String[] args)
 	{

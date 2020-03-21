@@ -62,6 +62,6 @@ public class GroupTask3 {
 		str3=str3+str4;//DayNight
 		str4=str3.substring(0,str3.length()-str4.length());//Day
 		str3=str3.substring(str3.length());//Night
-		System.out.println("The value of str1= "+str1);
-		System.out.println("The value of str2= "+str2);
+		System.out.println("The value of str3= "+str3);
+		System.out.println("The value of str4= "+str4);
 }}
